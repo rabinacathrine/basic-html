@@ -1,0 +1,17 @@
+body{
+    background-color: yellowgreen;
+}
+.container{
+    background-color: teal;
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    /* grid-column-gap: 25px;
+    grid-row-gap:25px; */
+    grid-gap:25px;
+    width: 700px;
+    height:400px;
+}
+#item{
+    border:2px solid black;
+}
+
